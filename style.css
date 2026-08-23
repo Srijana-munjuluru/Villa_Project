@@ -130,8 +130,8 @@
 }
 
 .props {
-    height: 520px;
-    width: 350px;
+    height: 470px;
+    width: 380px;
     border: none;
     box-shadow: 0px 0px 9px lightgrey;
     padding: 30px;
@@ -143,7 +143,7 @@
 .feature {
     display: flex;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 250px;
 }
 
 .content {
@@ -161,18 +161,18 @@
 .fcontent p {
     color: orangered;
     font-weight: bold;
-    padding-bottom: 2px;
+    padding-bottom: 20px;
 
 }
 
 .fcontent h2 {
     font-weight: bold;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 
 }
 
 .fimg img {
-    height: 520px;
+    height: 470px;
     width: 400px;
     padding-right: 50px;
     
@@ -201,19 +201,17 @@
 }
 
 .accordion {
-    width: 550px;
+    width: 500px;
     background-color: whitesmoke;
     padding: 10px;
     border-radius: 10px;
 }
 
-/* Each accordion item */
 .accordion details {
     margin-bottom: 15px;
     background-color: whitesmoke;
 }
 
-/* Heading/button */
 .accordion summary {
     padding: 12px 0;
     cursor: pointer;
@@ -225,29 +223,24 @@
     list-style: none;
 }
 
-/* Remove default arrow */
 .accordion summary::-webkit-details-marker {
     display: none;
 }
 
-/* Add our own arrow */
 .accordion summary::after {
     content: "";
     float: right;
     font-size: 20px;
 }
 
-/* When opened */
 .accordion details[open] summary {
     color: orangered;
 }
 
-/* Change + to - when opened */
 .accordion details[open] summary::after {
     content: "";
 }
 
-/* Accordion content */
 .accordion-content {
     padding: 5px 0 15px;
 
@@ -257,26 +250,26 @@
 }
 .section2 {
     background-image: url("./Assets/video-bg.jpg");
-    margin-top: 30px;
+    margin-top: 80px;
     height: 500px;
 }
 
 .section2 p {
     color: orangered;
-    padding-left: 700px;
-    padding-top: 100px;
+    padding-top: 60px;
+    text-align: center;
 }
 
-.section2 h3 {
+.section2 h1 {
     color: whitesmoke;
     font-weight: bold;
-    padding-left: 670px;
-    padding-top: 10px;
+    padding-top: 20px;
+    text-align: center;
 }
 
 .section2 img {
     margin-left: 250px;
-    margin-top: 50px;
+    margin-top: 70px;
     width: 1000px;
     border-radius: 10px;
 
@@ -307,9 +300,9 @@
 }
 .details{
     height: 100px;
-    width: 200px;
-    padding: 20px;
-    margin: 30px 50px;
+    width: 230px;
+    padding: 30px;
+    margin: 30px 80px;
     background-color: rgb(249, 230, 223);
     border-radius: 10px;
     margin-top: 250px;  
@@ -343,17 +336,18 @@
 .features{
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 
 }
 .section3{
     background-color: whitesmoke;
     padding: 50px;
-    margin-top: 50px;
+    margin-top: 80px;
 
 }
 .specs{
-    height: 330px;
-    width: 300px;
+    height: 350px;
+    width: 280px;
     background-color: white;
     box-shadow: 0px 0px 11px gray;
     border-radius: 10px;
@@ -362,7 +356,7 @@
     padding-bottom: 15px;
 }
 .specs p{
-    padding: 10px ;
+    padding: 12px ;
 }
 .specs hr{
     margin: 10px;
@@ -386,6 +380,9 @@
 .part1{
     display: flex;
     justify-content: space-between;
+}
+.theory{
+    margin-left: 40px;
 }
 .theory p{
     color: orangered;
@@ -421,20 +418,31 @@
     justify-content: center;
 }
 .part3{
-    width: 280px;
+    width: 250px;
 }
 .specsimg img{
-    width: 760px;
+    width: 750px;
     height: 400px;
     margin-right: 30px;
 }
 .part3 h4{
     padding-bottom: 10px;
 }
+.heading{
+    text-align: center;
+}
+.heading p{
+    color: orangered;
+    padding-top: 80px;
+}
+.heading h1{
+    padding-top: 20px;
+}
 .cards{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 30px;
 }
 .card{
     padding: 20px 17px;
@@ -467,6 +475,9 @@
 }
 .card h4{
     margin: 10px 3px;
+}
+.section4{
+    margin-bottom: 100px;
 }
 .contacts {
     background-image: url("./Assets/contact-bg.jpg");
@@ -501,7 +512,7 @@
     
 }
 .frame iframe{
-    margin-left: 50px;
+    margin-left: 00px;
     margin-top: -180px;
     margin-bottom: 30px;
     border-radius: 10px;
@@ -510,7 +521,7 @@
  }
 .form{
     height: 550px;
-    width: 600px;
+    width: 580px;
     border: none;
     box-shadow: 0px 0px 9px lightgrey;
     padding: 20px;
@@ -553,6 +564,7 @@
  .end{
     display: flex;
     justify-content: center;
+    margin-left: 10px;
  }
  .block img{
     float: left;
@@ -560,14 +572,19 @@
  }
  .block{
     height: 100px;
-    width: 320px;
+    width: 350px;
     border: none;
     border-radius: 10px;
     box-shadow: 0px 0px 9px lightgrey;;
-    /* margin: 20px 0px; */
-    padding: 20px 20px;
-    margin-bottom: 80px;
-    margin-left: 20px;
+    /* margin-right:  */
+    padding: 20px ;
+    /* margin-bottom: 80px; */
+    /* margin-left: 0px; */
+    /* font-size: 30px; */
+ }
+ #block1{
+    margin-right: 40px;
+    margin-top: 10px;
  }
  .block p{
     color: gray;
@@ -575,6 +592,7 @@
  .blocks{
     display: flex;
     justify-content: center;
+    align-items: center;
  }
 .footer{
     background-color: black;
@@ -582,4 +600,5 @@
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-top: 30px;
 }
