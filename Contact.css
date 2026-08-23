@@ -125,6 +125,7 @@
 #p2{
     font-size: 15px;
     margin-top: 20px;
+    line-height: 1.8;
 }
 .sec1 h1{
     font-size: 40px;
@@ -169,6 +170,9 @@
     height: 35px;
     border-radius: 25px;
  }
+ .form button:hover{
+    background-color: orangered;
+ }
  .card img{
     float: left;
     margin-right: 20px;
@@ -179,7 +183,7 @@
     border: none;
     border-radius: 10px;
     box-shadow: 0px 0px 9px lightgrey;;
-    margin: 20px 0px;
+    margin: 30px 0px;
     padding: 20px 20px;
  }
  .card p{
@@ -200,6 +204,6 @@
     background-color: black;
     color: whitesmoke;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }

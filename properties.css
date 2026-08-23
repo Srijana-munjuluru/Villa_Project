@@ -123,7 +123,7 @@
     margin-bottom: 20px;
 }
 .buttons button:hover{
-    background-color: orangered;
+    color: orangered;
 }
 #button1{
     background-color: orangered;
@@ -155,9 +155,10 @@
     border: none;
     border-radius: 25px;
     margin-left: 58px;
+    font-weight: bold;
 }
 .card button:hover{
-    color: orangered;
+    background-color: orangered;
 }
 .card p{
     margin: 10px 3px;
@@ -184,10 +185,13 @@
 #num2{
     background-color: orangered;
 }
+.num:hover{
+    background-color: orangered;
+}
 .footer{
     background-color: black;
     color: whitesmoke;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }

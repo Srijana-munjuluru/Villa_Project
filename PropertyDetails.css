@@ -313,6 +313,7 @@
 .part3{
     width: 250px;
     line-height: 1.5;
+    padding-bottom: 80px;
 }
 .specsimg img{
     width: 750px;
@@ -327,7 +328,7 @@
     background-color: black;
     color: whitesmoke;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
 }

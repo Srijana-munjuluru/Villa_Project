@@ -418,6 +418,7 @@
 }
 .part3{
     width: 250px;
+    line-height: 1.5;
 }
 .specsimg img{
     width: 750px;
@@ -465,9 +466,10 @@
     border: none;
     border-radius: 25px;
     margin-left: 58px;
+    font-weight: bold;
 }
 .card button:hover{
-    color: orangered;
+    background-color: orangered;
 }
 .card p{
     margin: 10px 3px;
@@ -480,11 +482,9 @@
 }
 .contacts {
     background-image: url("./Assets/contact-bg.jpg");
-    height: 450px;
+    height: 500px;
     width: 100%;
     margin-top: 50px;
-    /* position: relative;
-    top: 140px; */
     padding-top: 70px;
 
 }
@@ -512,7 +512,7 @@
 }
 .frame iframe{
     margin-left: 00px;
-    margin-top: -180px;
+    margin-top: -220px;
     margin-bottom: 30px;
     border-radius: 10px;
     width: 750px;
@@ -526,7 +526,7 @@
     padding: 20px;
     margin-left: 30px;
     border-radius: 10px;
-    margin-top: -180px;
+    margin-top: -220px;
     background-color: white;
     margin-bottom: 80px;
 }
@@ -548,7 +548,7 @@
     color: gray;
     border: none;
     border-radius: 25px;
-    padding: 5px 10px;
+    padding: 10px 10px;
     margin: 10px 0px;
 
  }
@@ -559,6 +559,9 @@
     width: 140px;
     height: 35px;
     border-radius: 25px;
+ }
+ .form button:hover{
+    background-color: orangered;
  }
  .end{
     display: flex;
@@ -597,7 +600,7 @@
     background-color: black;
     color: whitesmoke;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin-top: 30px;
 }
