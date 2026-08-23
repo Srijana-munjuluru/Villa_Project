@@ -12,7 +12,6 @@
 .navbar p {
     color: gray;
     margin-top: 10px;
-
 }
 
 .navi i {
@@ -101,7 +100,6 @@
     top: 140px;
     padding-top: 200px;
     padding-left: 200px;
-
 }
 
 .hero p {
@@ -112,7 +110,6 @@
     font-size: 20px;
     padding-top: 3px;
     margin-bottom: 10px;
-
 }
 
 .hero {
@@ -122,7 +119,6 @@
 .hero h1 {
     color: white;
     font-size: 50px;
-
 }
 
 .props hr {
@@ -137,7 +133,6 @@
     padding: 30px;
     margin-left: 50px;
     border-radius: 10px;
-
 }
 
 .feature {
@@ -162,20 +157,17 @@
     color: orangered;
     font-weight: bold;
     padding-bottom: 20px;
-
 }
 
 .fcontent h2 {
     font-weight: bold;
     padding-bottom: 30px;
-
 }
 
 .fimg img {
     height: 470px;
     width: 400px;
     padding-right: 50px;
-    
 }
 
 .ficon img {
@@ -183,13 +175,11 @@
     height: 50px;
     width: 100px;
     position: absolute;
-    /* padding-left: 20px; */
     margin-left: 20px;
     margin-top: 20px;
-    
-    
 }
-.ficon{
+
+.ficon {
     background-color: orangered;
     height: 80px;
     width: 80px;
@@ -197,7 +187,6 @@
     margin-top: -50px;
     margin-left: -30px;
     position: relative;
-    
 }
 
 .accordion {
@@ -215,11 +204,9 @@
 .accordion summary {
     padding: 12px 0;
     cursor: pointer;
-
     font-size: 15px;
     font-weight: bold;
     color: black;
-
     list-style: none;
 }
 
@@ -243,10 +230,10 @@
 
 .accordion-content {
     padding: 5px 0 15px;
-
     color: black;
     line-height: 1.7;
 }
+
 .section2 {
     background-image: url("./Assets/video-bg.jpg");
     margin-top: 80px;
@@ -271,24 +258,25 @@
     margin-top: 70px;
     width: 1000px;
     border-radius: 10px;
-
 }
-.play{
+
+.play {
     color: orangered;
     margin-top: -250px;
     text-align: center;
     padding-top: 9px;
 }
-.play i{
+
+.play i {
     background-color: whitesmoke;
     height: 30px;
     width: 30px;
     border-radius: 50%;
     padding-top: 8px;
     text-align: center;
-
 }
-.iplay{
+
+.iplay {
     background-color: orangered;
     opacity: 0.7;
     height: 50px;
@@ -297,28 +285,30 @@
     position: relative;
     left: 750px;
 }
-.details{
+
+.details {
     height: 100px;
     width: 230px;
     padding: 30px;
     margin: 30px 80px;
     background-color: rgb(249, 230, 223);
     border-radius: 10px;
-    margin-top: 250px;  
+    margin-top: 250px;
     display: flex;
     position: relative;
-    
-
 }
-.details h1{
+
+.details h1 {
     padding-right: 20px;
     color: orangered;
 }
-.details p{
+
+.details p {
     color: black;
     font-weight: 600;
 }
-.circle{
+
+.circle {
     height: 30px;
     width: 30px;
     background-color: orangered;
@@ -326,25 +316,25 @@
     position: absolute;
     top: -10px;
     right: -10px;
+}
 
-}
-.details span{
+.details span {
     float: left;
-    
 }
-.features{
+
+.features {
     display: flex;
     justify-content: center;
     margin-top: 50px;
-
 }
-.section3{
+
+.section3 {
     background-color: whitesmoke;
     padding: 50px;
     margin-top: 80px;
-
 }
-.specs{
+
+.specs {
     height: 350px;
     width: 280px;
     background-color: white;
@@ -354,13 +344,16 @@
     padding-top: 15px;
     padding-bottom: 15px;
 }
-.specs p{
-    padding: 12px ;
+
+.specs p {
+    padding: 12px;
 }
-.specs hr{
+
+.specs hr {
     margin: 10px;
 }
-.part1 button{
+
+.part1 button {
     border: none;
     background-color: black;
     color: whitesmoke;
@@ -369,29 +362,32 @@
     padding: 5px;
     height: 35px;
     width: 100px;
-    
-    /* margin-bottom: -100px; */
 }
-#b1{
+
+#b1 {
     background-color: orangered;
-    /* margin-left: 1000px; */
 }
-.part1{
+
+.part1 {
     display: flex;
     justify-content: space-between;
 }
-.theory{
+
+.theory {
     margin-left: 40px;
 }
-.theory p{
+
+.theory p {
     color: orangered;
     font-weight: 600;
 }
-.theory h1{
+
+.theory h1 {
     font-weight: bold;
     padding-bottom: 20px;
 }
-.part3 button{
+
+.part3 button {
     background-color: black;
     color: whitesmoke;
     height: 40px;
@@ -402,7 +398,8 @@
     font-weight: bold;
     margin-top: 10px;
 }
-.part3 i{
+
+.part3 i {
     background-color: orangered;
     color: white;
     height: 40px;
@@ -412,39 +409,48 @@
     padding-top: 10px;
     font-size: 16px;
 }
-.parts{
+
+.parts {
     display: flex;
     justify-content: center;
 }
-.part3{
+
+.part3 {
     width: 250px;
     line-height: 1.5;
 }
-.specsimg img{
+
+.specsimg img {
     width: 750px;
     height: 400px;
     margin-right: 30px;
 }
-.part3 h4{
+
+.part3 h4 {
     padding-bottom: 10px;
 }
-.heading{
+
+.heading {
     text-align: center;
 }
-.heading p{
+
+.heading p {
     color: orangered;
     padding-top: 80px;
 }
-.heading h1{
+
+.heading h1 {
     padding-top: 20px;
 }
-.cards{
+
+.cards {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 30px;
 }
-.card{
+
+.card {
     padding: 20px 17px;
     margin: 15px;
     background-color: whitesmoke;
@@ -452,13 +458,15 @@
     width: 360px;
     border-radius: 10px;
 }
-.card img{
+
+.card img {
     width: 325px;
     height: 250px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
-.card button{
+
+.card button {
     background-color: black;
     width: 200px;
     height: 50px;
@@ -468,25 +476,29 @@
     margin-left: 58px;
     font-weight: bold;
 }
-.card button:hover{
+
+.card button:hover {
     background-color: orangered;
 }
-.card p{
+
+.card p {
     margin: 10px 3px;
 }
-.card h4{
+
+.card h4 {
     margin: 10px 3px;
 }
-.section4{
+
+.section4 {
     margin-bottom: 100px;
 }
+
 .contacts {
     background-image: url("./Assets/contact-bg.jpg");
     height: 500px;
     width: 100%;
     margin-top: 50px;
     padding-top: 70px;
-
 }
 
 .contacts p {
@@ -494,31 +506,27 @@
     width: 220px;
     height: 40px;
     margin-left: 630px;
-    /* margin-bottom: 0px; */
     text-align: center;
-    /* padding-top: 10px; */
     font-weight: 500;
     font-size: 15px;
-
-
 }
 
 .contacts h1 {
     color: whitesmoke;
-    /* margin-left: 620px; */
     font-size: 45px;
     text-align: center;
-    
 }
-.frame iframe{
+
+.frame iframe {
     margin-left: 00px;
     margin-top: -220px;
     margin-bottom: 30px;
     border-radius: 10px;
     width: 750px;
     height: 400px;
- }
-.form{
+}
+
+.form {
     height: 550px;
     width: 580px;
     border: none;
@@ -531,17 +539,18 @@
     margin-bottom: 80px;
 }
 
-.form input{
-   background-color: rgb(237, 235, 235);
-   color: gray;
-   border: none;
-   border-radius: 25px;
-   width: 550px;
-   height: 35px; 
-   padding: 5px 10px;
-   margin: 10px 0px;
+.form input {
+    background-color: rgb(237, 235, 235);
+    color: gray;
+    border: none;
+    border-radius: 25px;
+    width: 550px;
+    height: 35px;
+    padding: 5px 10px;
+    margin: 10px 0px;
 }
- .form textarea{
+
+.form textarea {
     width: 550px;
     height: 90px;
     background-color: rgb(237, 235, 235);
@@ -550,53 +559,57 @@
     border-radius: 25px;
     padding: 10px 10px;
     margin: 10px 0px;
+}
 
- }
- .form button{
+.form button {
     background-color: black;
     color: whitesmoke;
     border: none;
     width: 140px;
     height: 35px;
     border-radius: 25px;
- }
- .form button:hover{
+}
+
+.form button:hover {
     background-color: orangered;
- }
- .end{
+}
+
+.end {
     display: flex;
     justify-content: center;
     margin-left: 10px;
- }
- .block img{
+}
+
+.block img {
     float: left;
     margin-right: 20px;
- }
- .block{
+}
+
+.block {
     height: 100px;
     width: 350px;
     border: none;
     border-radius: 10px;
-    box-shadow: 0px 0px 9px lightgrey;;
-    /* margin-right:  */
-    padding: 20px ;
-    /* margin-bottom: 80px; */
-    /* margin-left: 0px; */
-    /* font-size: 30px; */
- }
- #block1{
+    box-shadow: 0px 0px 9px lightgrey;
+    padding: 20px;
+}
+
+#block1 {
     margin-right: 40px;
     margin-top: 10px;
- }
- .block p{
+}
+
+.block p {
     color: gray;
- }
- .blocks{
+}
+
+.blocks {
     display: flex;
     justify-content: center;
     align-items: center;
- }
-.footer{
+}
+
+.footer {
     background-color: black;
     color: whitesmoke;
     text-align: center;

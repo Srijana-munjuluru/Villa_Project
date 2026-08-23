@@ -1,18 +1,21 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.navbar i{
+
+.navbar i {
     color: orangered;
 }
-.navbar p{
+
+.navbar p {
     color: gray;
     margin-top: 10px;
-    
+
 }
-.navi i{
+
+.navi i {
     color: white;
     background-color: rgb(163, 162, 162);
     border-radius: 50%;
@@ -23,29 +26,33 @@
     text-align: center;
     padding-top: 7px;
 }
-.navi i:hover{
+
+.navi i:hover {
     background-color: orangered;
 }
-.nav{
+
+.nav {
     display: flex;
     justify-content: space-between;
-    margin:10px 100px;
+    margin: 10px 100px;
 }
-.anchor a{
+
+.anchor a {
     text-decoration: none;
     color: black;
     font-weight: bold;
     margin-right: 50px;
 }
-.anchor a:hover{
+
+.anchor a:hover {
     color: orangered;
 }
 
-#a2:visited{
+#a2:visited {
     color: orangered;
 }
 
-.head{
+.head {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
@@ -53,7 +60,8 @@
     margin-left: 100px;
     padding-bottom: 20px;
 }
-.anchor button{
+
+.anchor button {
     background-color: black;
     color: whitesmoke;
     height: 40px;
@@ -63,10 +71,12 @@
     text-align: left;
     font-weight: bold;
 }
-.anchor button:hover{
+
+.anchor button:hover {
     color: orangered;
 }
-.anchor i{
+
+.anchor i {
     background-color: orangered;
     color: white;
     height: 40px;
@@ -76,21 +86,23 @@
     padding-top: 10px;
     font-size: 16px;
 }
-.navigate{
+
+.navigate {
     position: fixed;
     background-color: white;
     z-index: 999;
 }
-.hero{
+
+.hero {
     background-image: url("./Assets/page-heading-bg.jpg");
     height: 350px;
     width: 100%;
     position: relative;
     top: 140px;
     padding-top: 130px;
-    
 }
-.hero p{
+
+.hero p {
     background-color: whitesmoke;
     width: 180px;
     height: 40px;
@@ -100,18 +112,19 @@
     padding-top: 10px;
     font-weight: 500;
     font-size: 15px;
-    
-
 }
-.hero h1{
+
+.hero h1 {
     color: whitesmoke;
     margin-left: 660px;
     font-size: 45px;
 }
-.buttons{
+
+.buttons {
     margin-left: 480px;
 }
-.buttons button{
+
+.buttons button {
     background-color: black;
     color: whitesmoke;
     margin-top: 200px;
@@ -122,18 +135,22 @@
     border-radius: 3px;
     margin-bottom: 20px;
 }
-.buttons button:hover{
+
+.buttons button:hover {
     color: orangered;
 }
-#button1{
+
+#button1 {
     background-color: orangered;
 }
-.cards{
+
+.cards {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.card{
+
+.card {
     padding: 20px 17px;
     margin: 15px;
     background-color: whitesmoke;
@@ -141,13 +158,15 @@
     width: 360px;
     border-radius: 10px;
 }
-.card img{
+
+.card img {
     width: 325px;
     height: 250px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
-.card button{
+
+.card button {
     background-color: black;
     width: 200px;
     height: 40px;
@@ -157,21 +176,26 @@
     margin-left: 58px;
     font-weight: bold;
 }
-.card button:hover{
+
+.card button:hover {
     background-color: orangered;
 }
-.card p{
+
+.card p {
     margin: 10px 3px;
 }
-.card h4{
+
+.card h4 {
     margin: 10px 3px;
 }
-.nums{
+
+.nums {
     display: flex;
     justify-content: center;
     margin: 40px;
 }
-.num{
+
+.num {
     background-color: black;
     border-radius: 50%;
     height: 35px;
@@ -182,13 +206,16 @@
     font-size: 18px;
     text-align: center;
 }
-#num2{
+
+#num2 {
     background-color: orangered;
 }
-.num:hover{
+
+.num:hover {
     background-color: orangered;
 }
-.footer{
+
+.footer {
     background-color: black;
     color: whitesmoke;
     text-align: center;
