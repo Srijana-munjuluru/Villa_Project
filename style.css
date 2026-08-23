@@ -217,8 +217,8 @@
     cursor: pointer;
 
     font-size: 15px;
-    font-weight: 500;
-    color: #555;
+    font-weight: bold;
+    color: black;
 
     list-style: none;
 }
@@ -244,8 +244,7 @@
 .accordion-content {
     padding: 5px 0 15px;
 
-    color: #777;
-    font-size: 13px;
+    color: black;
     line-height: 1.7;
 }
 .section2 {
