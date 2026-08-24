@@ -123,6 +123,9 @@
 
 .props hr {
     margin: 30px 10px;
+    border: none;
+    height: 1px;
+    background-color: rgb(229, 228, 228);
 }
 
 .props {
@@ -232,6 +235,12 @@
     padding: 5px 0 15px;
     color: black;
     line-height: 1.7;
+}
+
+.accordion hr {
+    border: none;
+    height: 1px;
+    background-color: rgb(232, 232, 232);
 }
 
 .section2 {
@@ -351,6 +360,9 @@
 
 .specs hr {
     margin: 10px;
+    border: none;
+    height: 1px;
+    background-color: rgb(226, 224, 224);
 }
 
 .part1 button {
@@ -457,6 +469,12 @@
     height: 520px;
     width: 360px;
     border-radius: 10px;
+}
+
+.card hr {
+    border: none;
+    height: 1px;
+    background-color: lightgray;
 }
 
 .card img {
