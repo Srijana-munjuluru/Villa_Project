@@ -228,3 +228,345 @@
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .nav {
+        margin: 10px 40px;
+    }
+
+    .head {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .anchor a {
+        margin-right: 20px;
+    }
+
+    .hero {
+        top: 0;
+        height: 320px;
+        padding-top: 110px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .hero p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero h1 {
+        margin-left: 0;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .buttons {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .buttons button {
+        margin-top: 170px;
+    }
+
+    .cards {
+        padding: 0 20px;
+    }
+
+    .card {
+        width: 320px;
+        height: auto;
+        min-height: 480px;
+    }
+
+    .card img {
+        width: 286px;
+        height: 230px;
+    }
+
+    .card button {
+        display: block;
+        margin: 20px auto;
+    }
+
+    .nums {
+        margin: 30px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .navigate {
+        position: relative;
+        width: 100%;
+    }
+
+    .nav {
+        margin: 10px 20px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .navbar p {
+        margin-bottom: 10px;
+    }
+
+    .navi {
+        margin-top: 10px;
+    }
+
+    .head {
+        margin: 10px 20px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .anchor {
+        margin-top: 10px;
+    }
+
+    .anchor a {
+        display: inline-block;
+        margin: 5px 10px;
+    }
+
+    .anchor button {
+        margin-top: 10px;
+    }
+
+    .hero {
+        top: 0;
+        height: 300px;
+        padding: 90px 20px 0;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .hero p {
+        width: 180px;
+        height: 38px;
+        margin: 0 auto 15px;
+        padding-top: 9px;
+        font-size: 14px;
+    }
+
+    .hero h1 {
+        margin: 0;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .buttons {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .buttons button {
+        margin-top: 120px;
+        margin-right: 8px;
+        width: 110px;
+    }
+
+    .cards {
+        padding: 0 15px;
+    }
+
+    .card {
+        width: 45%;
+        height: auto;
+        min-height: 470px;
+        margin: 10px;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+        max-height: 230px;
+        object-fit: cover;
+    }
+
+    .card button {
+        width: 180px;
+        margin: 20px auto;
+        display: block;
+    }
+
+    .nums {
+        margin: 30px 10px;
+    }
+
+    .num {
+        margin: 6px;
+    }
+
+    .footer {
+        font-size: 14px;
+        padding: 25px 15px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .nav {
+        margin: 10px;
+    }
+
+    .head {
+        margin: 10px;
+    }
+
+    .anchor a {
+        font-size: 14px;
+        margin: 5px;
+    }
+
+    .anchor button {
+        width: 150px;
+    }
+
+    .hero {
+        height: 270px;
+        padding-top: 75px;
+    }
+
+    .hero p {
+        width: 160px;
+        height: 35px;
+        font-size: 13px;
+        padding-top: 8px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .buttons {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .buttons button {
+        margin-top: 100px;
+        margin-right: 5px;
+        width: 95px;
+        height: 32px;
+        font-size: 13px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 10px;
+    }
+
+    .card {
+        width: 95%;
+        max-width: 360px;
+        min-height: 0;
+        height: auto;
+        margin: 10px 0;
+        padding: 15px;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+        max-height: none;
+        object-fit: cover;
+    }
+
+    .card button {
+        width: 180px;
+        height: 40px;
+        margin: 20px auto 5px;
+    }
+
+    .nums {
+        margin: 25px 5px;
+    }
+
+    .num {
+        height: 32px;
+        width: 32px;
+        font-size: 16px;
+        margin: 4px;
+        padding-top: 5px;
+    }
+
+    .footer {
+        font-size: 13px;
+        padding: 20px 10px;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+
+    /* Navigation */
+    .anchor a {
+        font-size: 12px;
+        margin: 4px;
+    }
+
+    .anchor button {
+        width: 140px;
+    }
+
+    .hero {
+        height: 250px;
+        padding-top: 65px;
+    }
+
+    .hero p {
+        width: 145px;
+        height: 32px;
+        font-size: 12px;
+        padding-top: 7px;
+    }
+
+    .hero h1 {
+        font-size: 26px;
+    }
+
+    .buttons {
+        padding: 0 5px;
+    }
+
+    .buttons button {
+        width: 80px;
+        font-size: 11px;
+        margin-right: 2px;
+    }
+
+    .card {
+        width: 96%;
+        padding: 12px;
+    }
+
+    .card h4 {
+        font-size: 15px;
+    }
+
+    .card p {
+        font-size: 13px;
+    }
+
+    .card button {
+        width: 160px;
+    }
+
+    .num {
+        height: 30px;
+        width: 30px;
+        font-size: 14px;
+        margin: 3px;
+    }
+
+}

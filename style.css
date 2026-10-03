@@ -635,3 +635,510 @@
     padding-bottom: 30px;
     margin-top: 30px;
 }
+
+@media screen and (max-width: 1024px) {
+
+    /* Navbar */
+    .nav {
+        margin: 10px 40px;
+    }
+
+    .head {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .anchor a {
+        margin-right: 20px;
+    }
+
+    /* Hero */
+    .hero {
+        padding-left: 80px;
+        height: 500px;
+    }
+
+    .hero h1 {
+        font-size: 42px;
+    }
+
+    /* Features */
+    .feature {
+        margin-top: 180px;
+        align-items: center;
+    }
+
+    .props {
+        width: 320px;
+        margin-left: 20px;
+    }
+
+    .content {
+        padding-left: 30px;
+    }
+
+    .fimg img {
+        width: 320px;
+        height: 400px;
+        padding-right: 20px;
+    }
+
+    .accordion {
+        width: 400px;
+    }
+
+    /* Video Section */
+    .section2 img {
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    .iplay {
+        left: 0;
+        margin: auto;
+    }
+
+    .details {
+        margin-left: 40px;
+    }
+
+    /* Section 3 */
+    .specsimg img {
+        width: 550px;
+        height: 350px;
+    }
+
+    .parts {
+        align-items: center;
+    }
+
+    /* Cards */
+    .card {
+        width: 300px;
+    }
+
+    .card img {
+        width: 266px;
+    }
+
+    .card button {
+        margin-left: 33px;
+    }
+
+    /* Contact */
+    .contacts p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .frame iframe {
+        width: 500px;
+    }
+
+    .form {
+        width: 450px;
+    }
+
+    .form input,
+    .form textarea {
+        width: 410px;
+    }
+
+    /* Contact blocks */
+    .block {
+        width: 300px;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .navigate {
+        position: relative;
+        width: 100%;
+    }
+
+    .nav {
+        margin: 10px 20px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .navbar p {
+        margin-bottom: 10px;
+    }
+
+    .navi {
+        margin-top: 10px;
+    }
+
+    .head {
+        margin: 15px 20px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .anchor {
+        margin-top: 15px;
+    }
+
+    .anchor a {
+        display: inline-block;
+        margin: 5px 10px;
+    }
+
+    .anchor button {
+        margin-top: 10px;
+    }
+
+    .hero {
+        top: 0;
+        height: 450px;
+        padding: 120px 30px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .hero p {
+        font-size: 16px;
+        width: 130px;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .feature {
+        flex-direction: column;
+        margin-top: 60px;
+        padding: 20px;
+    }
+
+    .props {
+        width: 100%;
+        max-width: 380px;
+        height: auto;
+        margin: 0 auto 40px;
+    }
+
+    .content {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .fcontent {
+        text-align: center;
+    }
+
+    .fimg {
+        text-align: center;
+    }
+
+    .fimg img {
+        width: 90%;
+        max-width: 400px;
+        height: auto;
+        padding-right: 0;
+    }
+
+    .ficon {
+        margin-left: 0;
+        margin-top: -40px;
+    }
+
+    .accordion {
+        width: 100%;
+        max-width: 500px;
+        margin: 20px auto;
+        text-align: left;
+    }
+
+    .section2 {
+        height: auto;
+        min-height: 500px;
+        padding-bottom: 40px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .section2 p {
+        padding-top: 50px;
+    }
+
+    .section2 h1 {
+        font-size: 28px;
+        padding: 20px;
+    }
+
+    .section2 img {
+        margin: 40px auto;
+        display: block;
+        width: 90%;
+        height: auto;
+    }
+
+    .iplay {
+        position: relative;
+        left: 0;
+        margin: -120px auto 0;
+    }
+
+    .details {
+        margin: 150px auto 20px;
+        width: 220px;
+    }
+
+    .section3 {
+        padding: 30px 20px;
+    }
+
+    .parts {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .specsimg {
+        width: 100%;
+        text-align: center;
+    }
+
+    .specsimg img {
+        width: 90%;
+        height: auto;
+        margin: 0;
+    }
+
+    .part3 {
+        width: 90%;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .part1 {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .theory {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .heading p {
+        padding-top: 50px;
+    }
+
+    .heading h1 {
+        font-size: 30px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        max-width: 360px;
+        height: auto;
+        min-height: 520px;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card button {
+        display: block;
+        margin: 20px auto;
+    }
+
+    .contacts {
+        height: 400px;
+        padding-top: 50px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .contacts p {
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .contacts h1 {
+        font-size: 35px;
+    }
+
+    .end {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+
+    .frame {
+        width: 90%;
+    }
+
+    .frame iframe {
+        width: 100%;
+        height: 300px;
+        margin: 0;
+    }
+
+    .form {
+        width: 90%;
+        max-width: 580px;
+        height: auto;
+        margin: 30px auto 50px;
+    }
+
+    .form input,
+    .form textarea {
+        width: 100%;
+    }
+
+    .form textarea {
+        height: 100px;
+    }
+
+    .blocks {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .block {
+        width: 90%;
+        max-width: 350px;
+    }
+
+    #block1 {
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .nav {
+        margin: 10px;
+    }
+
+    .head {
+        margin: 10px;
+    }
+
+    .anchor a {
+        margin: 5px;
+        font-size: 14px;
+    }
+
+    .anchor button {
+        width: 160px;
+    }
+
+    .hero {
+        height: 400px;
+        padding: 100px 20px;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+        line-height: 1.2;
+    }
+
+    .feature {
+        padding: 15px;
+        margin-top: 40px;
+    }
+
+    .props {
+        padding: 20px;
+    }
+
+    .fcontent h2 {
+        font-size: 25px;
+    }
+
+    .fimg img {
+        width: 100%;
+    }
+
+    .accordion {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .accordion summary {
+        font-size: 14px;
+    }
+
+    .section2 h1 {
+        font-size: 24px;
+    }
+
+    .section2 img {
+        width: 95%;
+    }
+
+    .details {
+        width: 200px;
+        padding: 25px;
+    }
+
+    .section3 {
+        padding: 25px 10px;
+    }
+
+    .specsimg img {
+        width: 100%;
+    }
+
+    .part3 {
+        width: 100%;
+    }
+
+    .card {
+        width: 95%;
+        margin: 10px 0;
+    }
+
+    .card img {
+        width: 100%;
+    }
+
+    .contacts h1 {
+        font-size: 28px;
+    }
+
+    .form {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .form input,
+    .form textarea {
+        width: 100%;
+    }
+
+    .frame {
+        width: 95%;
+    }
+
+    .frame iframe {
+        height: 250px;
+    }
+
+    .block {
+        width: 95%;
+    }
+
+    .footer {
+        font-size: 14px;
+        padding: 25px 15px;
+    }
+
+}
